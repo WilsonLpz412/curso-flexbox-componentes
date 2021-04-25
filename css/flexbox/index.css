@@ -1,3 +1,5 @@
+@import './display-flex.css';
+
 :root {
   --darkColor: #04001e;
   --lightColor: #DFFBFF;
@@ -21,6 +23,7 @@ a {
 
 .box {
   border: 5px dashed var(--primaryColor);
+  padding: 1rem;
   counter-increment: flex-items;
 }
 
