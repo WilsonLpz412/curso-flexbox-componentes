@@ -1,5 +1,5 @@
 .slider {
-  inline-size: 200px;
+  /* inline-size: 200px; */
   background: rgba(255, 255, 255, .2);
   block-size: .25rem;
   border-radius: .25rem;
@@ -16,7 +16,6 @@
 .slider-progress {
   block-size: inherit;
   border-radius: inherit;
-  block-size: 10px;
   background: var(--white);
   inline-size: 20%;
   position: relative;
