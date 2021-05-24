@@ -1,0 +1,74 @@
+  .listSong {
+
+  }
+
+  .listSong-list{
+
+  }
+
+  .listSong-detailHead {
+    display: flex;
+    align-items: center;
+    color: var(--gray10);
+  }
+
+  .listSong-detail {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+  }
+
+  .listSong-detailHead > * {
+    margin: 0;
+  }
+
+  .listSong-detail > * {
+    margin: 0;
+  }
+
+  .listSong-play,
+  .listSong-playSong {
+    min-inline-size: 2.75rem;
+  }
+
+  .listSong-playSong i {
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding-inline: .5rem;
+    padding-block: .5rem;
+    border-radius: 50%;
+  }
+
+  .listSong-favorite,
+  .listSong-favoriteSong {
+    min-inline-size: 2.75rem;
+  }
+
+  .listSong-favoriteSong i {
+    color: var(--white);
+  }
+
+  .listSong-title,
+  .listSong-titleSong {
+    min-inline-size: 20.25rem;
+  }
+
+  .listSong-artist,
+  .listSong-artistSong {
+    min-inline-size: 17.125rem;
+  }
+
+  .listSong-album,
+  .listSong-albumSong {
+    min-inline-size: 17.125rem;
+  }
+
+  .listSong-date,
+  .listSong-dateSong {
+    min-inline-size: 5.625rem;
+  }
+
+  .listSong-time,
+  .listSong-timeSong {
+    inline-size: 3rem;
+  }

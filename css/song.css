@@ -1,0 +1,43 @@
+@import './button-reproducir.css';
+@import './list-song.css';
+@import './filter.css';
+
+.song {
+  display: flex;
+  justify-content: center;
+  padding-block-start: 5rem;
+}
+
+.song-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  inline-size: 20.2rem;
+  block-size: 9.5rem;
+  gap: 1rem;
+}
+
+.song-title {
+  font: var(--headline1);
+  color: var(--white);
+  margin: 0;
+}
+
+.song-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song-description {
+  font: var(--baseFont);
+  color: var(--white);
+  margin: 0;
+}
+
+.song-follow {
+  font: var(--baseFont);
+  color: var(--white);
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.layout-song {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+  background-image: url(../images/background_song.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+}
+
+.song-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+}
