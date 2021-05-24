@@ -3,9 +3,10 @@
 }
 .filter .search input{
   background: rgba(0, 0, 0, 0);
-  color: var(--white);
+  color: var(--gray10);
 }
 
 .filter .search input::-webkit-input-placeholder {
-  color: var(--white);
+  font: var(--baseFont);
+  color: var(--gray10);
 }

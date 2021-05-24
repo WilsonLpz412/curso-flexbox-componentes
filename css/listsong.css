@@ -1,0 +1,28 @@
+@import './button-reproducir.css';
+@import './list-song.css';
+@import './filter.css';
+
+.listsong {
+  display: flex;
+  color: var(--white);
+  gap: 1rem;
+  padding-block-end: 2rem;
+}
+
+.listsong-left {
+  inline-size: 19.5rem;
+  block-size: 11.4375rem;
+}
+.listsong-right {
+  inline-size: 18.9375rem;
+  block-size: 9.5rem;
+}
+
+.listsong-title {
+  font: var(--headline1);
+  margin: 0;
+}
+
+.listsong-detail {
+  font: var(--baseFont);
+}

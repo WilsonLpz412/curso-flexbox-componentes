@@ -1,0 +1,6 @@
+.layout-listsong {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+  flex: 1;
+}

@@ -10,7 +10,9 @@
 @import './layout.css';
 @import './scrollbar.css';
 @import './song.css';
-@import './layoutSong.css';
+@import './layout-song.css';
+@import './listsong.css';
+@import './layout-listsong.css';
 
 :root {
   font-size: 14px;
