@@ -13,6 +13,7 @@
 
 .layout-sidebar {
   block-size: calc(100vh - var(--bottomSize));
+  max-inline-size: 100vw;
   min-block-size: var(--minBlockSize);
   inline-size: var(--sidebarInlineSize);
   overflow: auto;
@@ -28,6 +29,7 @@
 
 .layout-bottom {
   flex: 1;
+  max-inline-size: 100vw;
   block-size: var(--bottomSize);
 }
 

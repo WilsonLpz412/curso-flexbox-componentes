@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+  .layout {
+    block-size: 100vw;
+  }
+
+  .layout-block {
+    display: block;
+  }
+
+  .layout-sidebar {
+    display: block;
+    max-block-size: 5rem;
+    min-block-size: 5rem;
+    inline-size: 100vh;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .layout-main {
+    block-size: calc(100vh - var(--bottomSize) - 5rem);
+    min-block-size: calc(100vh - var(--bottomSize) - 5rem);
+    overflow: auto;
+  }
+
+  .layout-bottom {
+    flex: 1;
+    max-block-size: var(--bottomSize);
+    min-block-size: var(--bottomSize);
+  }
+
+  .layout-sidebar .sidebar {
+    flex-direction: row;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .sticky {
+    /* display: none; */
+  }
+
+  .playlistList-container {
+    max-inline-size: 100vw;
+    flex-wrap: wrap;
+  }
+
+  .playlistList-top {
+    max-inline-size: 90vw;
+  }
+}

@@ -13,6 +13,7 @@
 @import './layout-song.css';
 @import './listsong.css';
 @import './layout-listsong.css';
+@import './mobile-design.css';
 
 :root {
   font-size: 14px;
